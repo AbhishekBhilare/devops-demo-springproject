@@ -6,9 +6,6 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.7.0</version>
-		<properties>
-			<java.version>11</java.version>
-		</properties>
 		<relativePath/>
 	</parent>
 	<groupId>com.javatechie</groupId>
@@ -16,6 +13,9 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>devops-integration</name>
 	<description>Demo project for Spring Boot</description>
+	<properties>
+		<java.version>11</java.version>
+	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
